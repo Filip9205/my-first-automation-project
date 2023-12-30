@@ -11,8 +11,8 @@ public class EndToEndTest extends BaseTest {
     //                                 Email             Gender  Name   Surname   Password    Day    Month      Year    Newsletter
     String[] accountCredentials = {getRandomEmail(), "Male", "Tom", "Soy", "password123", "16", "February", "2023", "No"};
     //                       ShoppingFor    Product Name            Quantity Size Color
-    String[] firstProduct = {"T-Shirts", "Faded Short Sleeve T-shirts", "10", "l", "Blue",};
-    String[] secondProduct = {"Blouses", "Blouse", "10", "m", "White"};
+    String[] firstProduct = {"T-Shirts", "Faded Short Sleeve T-shirts", "1", "l", "Blue",};
+    String[] secondProduct = {"Blouses", "Blouse", "1", "m", "White"};
     //                     address city state postcode country homephone mobilephone aliasToSaveInfo
     String[] shippingInfoData = {"address", "city", "Alabama", "00000", "United States", "02200000", "070100100", "My Info"};
     String paymentMethod = "check";

@@ -11,8 +11,8 @@ public class CreateAccount {
     //Variables
     private final By emailAddressForCreateAccount = By.id("email_create");
     private final By createAnAccountButton = By.id("SubmitCreate");
-    private final By maleGender = By.id("id_gender1");
-    private final By femaleGender = By.id("id_gender2");
+    private final By maleGender = By.id("uniform-id_gender1");
+    private final By femaleGender = By.id("uniform-id_gender2");
     private final By customerFirstName = By.id("customer_firstname");
     private final By customerLastName = By.id("customer_lastname");
     private final By customerPassword = By.id("passwd");

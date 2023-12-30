@@ -32,6 +32,6 @@ public class CreateAccountTest extends BaseTest{
         navigation.clickOnSubmitButton();
 
         Assert.assertEquals(asserts.assertSuccessfullyCreatedAccount(),"Your account has been created.");
-        Assert.assertEquals(asserts.assertCustomerAccount(), "asd"+" wew");
+        Assert.assertEquals(asserts.assertCustomerAccount(), accountCredentials[2]+" "+accountCredentials[3]);
     }
 }
